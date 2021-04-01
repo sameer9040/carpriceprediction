@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Price Prediction</title>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<style>    
+    /* Result */
+
+body {font-family: sans-serif;
+background-image: linear-gradient( 102.1deg,  rgba(96,221,142,1) 8.7%, rgba(24,138,141,1) 88.1% );
+  width:100%;
+	 margin:0;
+	 padding:0;
+	 direction:ltr;
+ webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;   }
+	 a {color:#000;}
+.head {background:#fff;
+width: 100%;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding:15px; 
+border-bottom: 1px solid #ddd;
+position: fixed;
+}
+.list {background: #fff; border-bottom: 1px solid #ddd; padding: 7px ; display: block; padding-left: 15px; padding-bottom: 7.5px;}
+
+.content {background-image: linear-gradient( 235deg,  rgba(217,59,130,1) 29.5%, rgba(248,98,63,1) 122.5% );
+		border; none;
+		padding: 10px;
+		display: block;
+		margin: 7px;
+		border-radius: 5px;
+		box-shadow: 0 4px 8px 0 rgba(1, 2, 3, 0.2), 0 0px 100px 0 rgba(0, 0, 0, 0.19); 
+		height: 55%;
+		width: 80%;
+		margin-top: 10%;}
+		
+	  .cardBtn{
+	  border:none;
+	  outline:0;
+	  display:inline-block;
+	  padding:8px;
+	  color:white;
+	  background-color:#000;
+	  border-radius:25px;
+	  text-align:center;
+	  cursor:pointer;
+	  width:80%;
+	  font-size:18px;
+	  position: absolute;
+      margin-left: 12%;}
+	  
+	  
+	 {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+input
+{
+-webkit-user-select: auto !important;
+-khtml-user-select: auto !important;
+-moz-user-select: auto !important;
+-ms-user-select: auto !important;
+user-select: auto !important;
+}
+
+.content2 {
+height:65%;
+width: 25%;
+box-shadow: 0 4px 8px 0 rgba(1, 2, 3, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
+background: #fff;
+margin-top: -100px;
+position: absolute;
+display: block;
+align-items: center;
+margin-left: 27%;
+
+}
+
+
+.content3 {
+height:65%;
+width: 25%;
+box-shadow: 0 4px 8px 0 rgba(1, 2, 3, 0.2), 0 0px 12px 0 rgba(0, 0, 0, 0.19);
+background: #fff;
+margin-top: -120px;
+position: absolute;
+display: block;
+text-align: left;
+margin-left: 27%;
+
+}
+.max {
+background: #E5E5E5;
+padding: 20px;
+text-align: center;
+font-size:25px;
+
+
+}
+.txt {
+font-size: 55pt;
+color: white;
+margin-top: 3%;
+
+}
+
+input[type=text] {
+background: white;
+border: 1px solid #ddd;
+padding: 12px;
+width: 90%;
+margin: 5px:
+
+}
+
+select {color: gray;
+background: white;
+border: 1px solid #ddd;
+padding: 12px;
+width: 90%;
+margin: 5px:
+
+}
+input[type="submit"] {
+background: #fff  ;
+color: white;
+padding: 13px;
+width: 92%;
+margin: 5px:
+border: 25px solid #C52E69;
+outline: #fff;
+-webkit-appearance: inherit;
+
+}
+
+</style>    
+</head>
+<body>
+
+	<center>
+			<div class="txt">Car Price Prediction</div>
+			<br><br><br><div class="content">
+			  <div class="content3">
+				<div class="max">Prediction Price</div>
+				<h3 style="color:blue; text-align: center;">Dear {{your_name}} {{your_contact}}<h3>
+	    		<h3 style="color:blue; text-align: center;">Your {{your_brand}}'s {{your_model}}<h3>
+		    	<h3 style="color:blue; text-align: center;">predicted price to sell is:Rs{{ prediction_text }}Lakhs<h3>
+			    <p>
+			     <a href="http://127.0.0.1:5000/#section-2">
+			     <button class="cardBtn">Predict Another</button>
+			     </a>
+			    </p>
+			 </div>
+			 
+			</div>
+	</center>
+</body>
+</html>

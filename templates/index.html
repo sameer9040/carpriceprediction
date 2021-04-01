@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+  /* For mobile phones: */
+  .section-2{
+  padding-button:10%;
+  }
+
+*{
+margin:0;
+padding:0;
+box-sizing:0;
+}
+#section-1{
+  height:750px;
+width:100%;
+  background-image:url("https://www.costulessdirect.com/wp-content/uploads/2020/02/what_you_need_to_know_about_non_owners_insurance-1.jpg");
+ background-size:cover;
+background-position:fixed;
+
+}
+
+#section-2{
+text-align:center;
+background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );}
+/* padding */
+.bluemate-container:after,.bluemate-container:before,.bluemate-panel:after,.bluemate-panel:before,.bluemate-row:after,.bluemate-row:before,.bluemate-row-padding:after,.bluemate-row-padding:before,
+.bluemate-cell-row:before,.bluemate-cell-row:after,.bluemate-clear:after,.bluemate-clear:before,.bluemate-bar:before,.bluemate-bar:after{content:"";display:table;clear:both}
+
+/* Text Box Style */
+.input-div > div > input{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1rem;
+	color: #555;
+	font-family: 'Roboto Slab', serif;
+}
+h1 {
+  text-align: center;
+font-size:50px;
+}
+h2{
+text-align:center;
+}
+p{
+display:inline;
+ text-align:center;
+font-size:30px;
+
+}
+p id{
+text-align:center:
+}
+
+#rcorners1 {
+  border-radius: 30px;
+  background:#3CBC8D;
+  padding: 17px; 
+  width: 200px;
+  height: 25px; 
+font-size:17px;
+padding-bottom:25px; 
+}
+.btnn{
+display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	margin-left: 300px;
+	cursor: pointer;
+	transition: .5s;
+                  
+}
+.btn{
+	display: block;
+	width: 30%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	margin: 1rem 33%;
+	cursor: pointer;
+	transition: .5s;
+    position: absolute;
+                  
+}
+.btn:hover{
+	background-position: right;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align:center;
+}
+
+input[type=submit] {
+  width: 35%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover{
+display: block;
+	width: 30%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+	margin: 1rem 33%;
+	cursor: pointer;
+	transition: .5s;
+    position: absolute;
+	background-position: right;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.2);
+  padding: 20px;
+}
+
+</style>
+</head>
+<body>
+ <div id="section-1">
+
+
+<!--<img src="rahul.jpg" width="500" height="333">-->
+<h1>Car Price Prediction</h1>
+<h2>Match Yourself With The Perfect Car For You</h2>
+<button class="btn"><a href="#section-2" style="text-decoration:none;color:inherit;">Advanced Search</a></button>
+<!--<a href="prediction" class="button"=width: 70%;
+	height: 200px;
+	border-radius: 25px;>
+	<a href="#prediction"class="button"
+<button type="button">
+<span></span>
+"Advanced Search"
+</button>-->
+</a>
+</div>
+
+<div id="section-2" class="section-2" style="padding-bottom: 10%">
+<div style="text-align:center; font-size:25px">Car Details</div>
+<form action="/predict" method="post" style="padding:100px;">
+<label for="lname"><p>Name</p></label>
+    <input type="text" id="lname" style="width: 200px;" name="Name" placeholder="Username" required><br>
+    <label for="lname"><p>Contact</p></label>
+    <input type="text" id="lname" style="width: 200px;" name="Contact" placeholder="Phoneno" required><br>
+<label for="lname"><p>Brand</p></label>
+    <input type="text" id="lname" style="width: 200px;" name="Brand" placeholder="Brand" required><br>
+      
+       <label for="lname"><p>Model</p></label>
+    <input type="text" id="lname" style="width: 200px;" name="Model" placeholder="Model Name" required><br>
+			
+  <p>Year<input type="text" id="first" style="width: 200px;"name="Year" placeholder="Purchase year" required></p><br>
+
+  <p>Price<input type="text" id="second" style="width: 200px;"name="Present_Price" placeholder="Purchase price" required="required"> </p><br>
+
+  <p>Kilometers<input type="text" id="third" style="width: 200px;"name="Kms_Driven" placeholder="KIlometers Drived"required="required"> </p><br>
+
+  <p>Owners<input type="text" id="fourth" style="width: 200px;"name="Owner" placeholder="Owners Before" required="required"><p></p>
+  
+    <p>Fuel </p> 
+  <select name="Fuel_Type_Petrol" id="fuel" required="required" style="width:200px;">
+      <option value="Petrol">Petrol</option>
+      <option value="Diesel">Diesel</option>
+      <option value="Diesel">CNG</option>
+  </select> </p><br>
+
+
+
+  <p>Owner Type<select name="Seller_Type_Individual" id="research" required="required" style="width:200px;">
+      <option value="Dealer">Dealer</option>
+      <option value="Individual">Individual</option>
+  </select> </p> 
+
+  <p>Transmission Type<select name="Transmission_Mannual" id="research" required="required" style="width:200px;">
+      <option value="Mannual">Manual Car</option>
+      <option value="Automatic">Automatic Car</option>
+  </select> </p> <br>
+
+  <button id="sub" type="submit" style="background-color: #4CAF50;
+  color: white;
+  padding: 30px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;"><br> <b> Calculate the Selling Price</b> </button>
+  <br>
+
+</form>
+
+</body>
+</html>
